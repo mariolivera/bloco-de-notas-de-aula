@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formulario" method="post">
+       
+        <label for="placa">informe a placa do carro</label>
+        <input id="placa" type="text" required minlength="3" placeholder="digite placa de carro">
+        <br>
+
+        <label for="modelo">informe o modelo</label>
+        <input id="modelo" type="text" required minlength="3" placeholder="informe o modelo">
+        <br>
+
+        <label for="ano">informe o ano do carro</label>
+        <input id="ano" type="date">
+        <br>
+        
+        <label for="marca">Selecione marca</label>
+        <select name="" id="marca">
+            <option value="">fiat uno</option>
+            <option value="">mob</option>
+            <option value="">vivace</option>
+            <option value="">toro</option>
+            
+        </select><br>
+
+        <label for="cor">Selecione a cor</label>
+        <select name="" id="cor">
+            <option value="">branco</option>
+            <option value="">azul</option>
+            <option value="">preto</option>
+            <option value="">vermelho</option>
+            
+        </select><br>
+
+        <label for="cidade">Selecione a cidade</label>
+        <select name="" id="cidade">
+            <option value="">Fortaleza</option>
+            <option value="">caucaia</option>
+            <option value="">maracanau</option>
+            <option value="">pecem</option>
+            
+        </select><br>
+
+        <label for="km">informe a quilomentragem</label>
+        <input id="km" type="number" min="0" max="999999999"><br>
+        <button> enviar</button>
+     
+    </form>
+    
+</body>
+</html>

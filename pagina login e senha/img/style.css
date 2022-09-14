@@ -1,0 +1,11 @@
+.imagem {
+    width: 10%;
+}
+
+.imagem2 {
+    width: 10%;
+}
+
+body {
+    background-image: url("https://images3.alphacoders.com/563/563667.jpg");
+}

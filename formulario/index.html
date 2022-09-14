@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <hr>
+
+    <form action="Formulario" method="get">
+        <label for="Nome">Nome completo</label>
+        <input id="nome" type="text" required minlength="3" placeholder="digite seu nome">
+        <br>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="digite seu email">
+        <br>
+
+        <label for="senha">Senha</label>
+        <input id="senha" type="password" required minlength="8" placeholder="digite a senha">
+        <br>
+        
+        <label for="idade">Idade</label>
+        <input id="idade" type="number" min="18" max="90" placeholder="digite a idade">
+        <br>
+
+        <label for="site">Site</label>
+        <input id="site" type="url" placeholder="endereço de site">
+        <br>
+
+        <label for="data_nasc">Data de nascimento</label>
+        <input id="data_nasc" type="date">
+        <br>
+
+        <label for="Hora">Hora de chegada</label>
+        <input id="Hora" type="time">
+        <br>
+
+        <label for="foto">Fotos</label>
+        <input id="foto" type="file">
+        <br>
+
+        <label for="cor">Cor da farda</label>
+        <input id="cor" type="color">
+        <br>
+
+        <input type="hidden" name="token" value="1234dde">
+        <br>
+
+        <p>Escolha o seu turno</p>
+
+        <label for="M">Manhã</label>
+        <input checked="checked" name="turno" id="M" type="radio" value="manhã"><br>
+
+        <label for="T">Tarde</label>
+        <input name="turno" id="T" type="radio" value="tarde"><br>
+
+        <label for="N">Noite</label>
+        <input name="turno" id="N" type="radio" value="noite"><br>
+        
+        <br>
+
+        <p>escolha os cursos de seu interesse</p>
+        <label for="js"> javascript</label>
+        <input name="curso[]" id="js" type="checkbox" value="javascript"><br>
+
+         <label for="php"> Php</label>
+        <input name="curso[]" id="php" type="checkbox" value="php"><br>
+
+        <label for="pyton"> Pyton</label>
+        <input name="curso[]" id="pyton" type="checkbox" value="pyton"><br>
+
+        <label for="msg">Menssagem</label>
+        <textarea id="msg" placeholder="Digite aqui"></textarea>
+        <br>
+
+        <label for="cidade">Selecione a cidade</label>
+        <select name="" id="cidade">
+            <option value="">Fortaleza</option>
+            <option value="">Caucaia</option>
+            <option value="">Maracanaú</option>
+            <option value="">Mauriti</option>
+            <option value="">Parambu</option>
+            <option value="">Itaitinga</option>
+        </select>
+
+        <button> enviar </button>
+    </form>
+</body>
+</html>

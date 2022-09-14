@@ -1,0 +1,15 @@
+button {
+    background-color: green;
+}
+
+button.azul {
+    background-color: blue;
+}
+
+button.vermelho {
+    background-color: red;
+}
+
+p {
+    color: red;
+}

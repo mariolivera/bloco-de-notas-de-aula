@@ -1,0 +1,50 @@
+nav {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: right;
+
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;  */
+
+    padding: 20px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    color: rgb(174, 2, 2);
+
+}
+
+section {
+    display: flex;
+}
+
+section>div {
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+section>div>button {
+
+    margin: 5px;
+    border-radius: 10px;
+}
+
+button.mais {
+    background-color: black;
+    color: #ffffff
+}
+button.nenos {
+    background-color: rgb(10, 10, 10);
+    color: #f514aa;
+}
