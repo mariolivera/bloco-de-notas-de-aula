@@ -1,0 +1,409 @@
+                 anotações de aula                    data08/09/2022
+
+GIT bash cd explore . => entra na pagina que você estar
+
+gitbootstrpa.com => ajuda para fazer os arquivos
+
+(crt+;) ele da seleciona, igual do css, <!-- alguma coisa-->
+
+---------------------------------------------------------------------------
+
+de cada browser, quando não haver nada de css, ele por padrão coloca
+8px de margin por padrão.
+--------------------------------------------------------------------------
+macete: o numero de coluna 12 ajuda para realizar paginas de que usam
+colunas, pois ele é um bom divisor.
+
+------------------------------------------------------------------------
+
+usar ferramenta para averiguar as margens e cores de casa arquivo.
+------------------------------------------------------------------------
+
+colspan "4"=>(aqui ele diz que possui 4 colunas) ele almenta a quantidade de colunas
+
+------------------------------------------------------------------------------
+usar as table para manipular as margins para facilitar a diagramação. 
+----------------------------------------------------------------------------
+github.com pcional usar na web 
+
+login mariolivera
+senha padrão linha 3 /coluna dois
+
+flexboxfroggy.com pesquisar e estudar
+pesquisar rafa github para aprender
+--------------------------------------------------------------------------
+
+não criar o nome do repositorio com espaço pois ele da pau, usar
+sempre lagum caractere como ( - )
+
+ISSUES = são as tarefas do projeto.
+-comandos-
+--git clone--=> ele clona seu projeto pelo terminal do vs code
+vai no git hub, copia o link e joga o link no terminal depois
+do codigo "git clone + link"
+git pull origin main=> ele atualiza sua pagina do seu vs code, com os arquivos do saite do github 
+git add + nome do arquivo para embalar o arquivo ele addiciona
+depois vc verifica com git status, o arquivo vai aparecer em verde se estiver ok
+ git commit -m "texto de messagem"
+=>git pull
+=>add
+=>commit
+=>push
+=> git config  global
+
+obs: configuração para novo usuario com credencial
+git config --global 
+------------------Logica de progamação----------------------14/09/22------------------------
+condicional/condição
+let A = true
+let b = false
+let c = a88b = false
+
+if . ( condição ) . {
+	// caso condição seja true , executa
+}
+if . (cond) // caso cond seja true, executa
+if . (cond) . {
+	//caso cond seja true
+} . else . {
+	//caso cond seja false 
+}
+-------------exemplo html-----------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log('abcd')
+        
+        if(1>2){ 
+            console.log('passou aqui1')
+        } else {
+            console.log('passou aqui 2')
+        }
+    </script>
+</body>
+</html>
+---------------condicional---------------------------------------------
+switch ( expresão ) {
+case resultado:
+
+	break;
+case
+	break; 
+defalt;
+
+break;
+}
+OBS: o swith não é muito utilizado mais hoje em dia.
+.o switch é mais usado em jogos pois possui mais opçoes.
+o break faz parte da estrotura do switch.
+
+----exemplo que da mostra proibida entrada---------
+
+sintaxe para comparaçaõ não muda as ordens elas precisam estar em ordem 
+corretas, >=(liguagem usada para javascript até então{pode haver mais, estudar})
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade=15;
+        if (idade >= 18) { 
+            console.log ('permitido entrada');
+        } else {
+            console.log ('proibida entrada');
+        }
+    </script>
+</body>
+</html>
+
+-----exemplo que mostra permitida entrada----------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade=18;
+        if (idade >= 18) { 
+            console.log ('permitido entrada');
+        } else {
+            console.log ('proibida entrada');
+        }
+    </script>
+</body>
+</html>
+------Tambem pode ser assim--------------------------------------------------------------
+Assim posso usar varais para declarar resultados diferentes sem usar o else.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade=18;
+        if (idade >= 18) { 
+            console.log ('permitido entrada');
+        } 
+	if(idade < 18) {
+            console.log ('proibida entrada');
+        }
+    </script>
+</body>
+</html>
+--------exercicio 1-----------------------------------------------------------------
+Esse exercicio tras mais uma add de um if para apresentar, entendimento 
+é uma das opções para colocar o if dentro do else,(fica mais facil de entender.)
+alem de almentar a velocidade do processamento.  
+	"MELHOR OPÇÃO"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade = 5;
+        if (idade >= 18) { 
+            console.log ('permitido entrada');
+        } else {
+            console.log ('proibida entrada');
+            if (idade<=5){
+                console.log ('você é uma criança');
+            }
+        }
+        
+    </script>
+</body>
+</html>
+----ou pode ser assim tambem-------------------------------------------
+nesse caso pode-se mudadr a ordem da msg.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade = 5;
+        if (idade >= 18) { 
+            console.log ('permitido entrada');
+        } else {
+            console.log ('proibida entrada');   
+        }
+        if (idade<=5){
+                console.log ('você é uma criança');
+            }
+    </script>
+</body>
+</html>
+-----exercicio 2 -------------------------------------------
+o pedido foi para que se a idade for <= 0 ela responda que é ivalido
+e não apareça mais nada, se não funncione normalmente, para isso 
+se faz assim.
+dessa 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade = -2;
+        if (idade <=0) {
+            console.log ('idade ivalida')
+        } else{
+            if (idade >= 18) { 
+                console.log ('permitido entrada');
+            } else {
+                console.log ('proibida entrada');
+                if (idade<=5){
+                    console.log ('você é uma criança');
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
+ler o codigo do outro de forma precisa do geito que estar escrito lá.
+-------exemplo 3---------------------------
+o pedido foi para da msg ivalida se for <=0 e >=100. 
+nesse caso na progamação nos usamos o "||" esse item é na leitura "ou"
+para da certo use esse exemplo.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade = -2;
+        if (idade <=0 || idade >=100) {
+            console.log ('idade ivalida')
+        } else{
+            if (idade >= 18) { 
+                console.log ('permitido entrada');
+            } else {
+                console.log ('proibida entrada');
+                if (idade<=5){
+                    console.log ('você é uma criança');
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+--------o contrario é-------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let idade = -2;
+        if (idade >=0 && idade <=100) {
+            console.log ('idade ivalida')
+        } else{
+            if (idade >= 18) { 
+                console.log ('permitido entrada');
+            } else {
+                console.log ('proibida entrada');
+                if (idade<=5){
+                    console.log ('você é uma criança');
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+----------aula alessandro----14/09/22-----------------------------
+estrotura{
+	-estrotura sequencia
+	-estrotura de descisão
+		-simples (if)
+		-Composta (if/esle)
+		-estrotura encadeada ou condicionada if(){ else(){ if(){ } } }
+		- multipla escolha (switch/case)
+	-estroturas de repetição 14/09/22
+		-com condição no incio
+		-com condição no fim
+		-com variavel de controle
+
+-------caso criar um formulario ---------------
+ OBS canal do alessandro feitosa com putaria
+
+realizar uma atividade que mostrar somente os numeros pares de 0 a 100,
+para realizar em casa e continuando com estudos de logica de progamação
+com os videos de outros devs.
+
+------------aula Allan------15/09/22--------------------------------------
+
+Função - Conceito
+(pesquisar sobre camelCase, pesquisar o processo empilhar nas funções[estrotura de dados], pesquisar recussão, pesquisar sobre input onchage)
+
+'Função' A (){}-- subistitui varias let.
+
+console.log()--ele funciona quando estar chamando um parametro dentro da function
+OBS: o metodo pode ser declarado antes da function, pois ele consegue ler
+o futuro. para indentificar coloca-se 
+let = 1
+console.log('a',a)
+ele mostrara o a. e o numero 1 e de onde ele vem que nesse caso viria do a 
+
+alert()--
+pronpt() --
+
+para declarar uma função usar function assim ela será chamada para operar
+normalmente, somente se ela sencontar a baixo da function e acima tambem.
+
+-------------aula do ale-------15/09/22-----------------------------------------------
+
+Aula-Array
+
+os array começa a ler a partir da posiçao zero, que seria no caso aluno1.
+
+
+-------------aula de allan-----16/09/22--------------------------------------
+função que retorna valor
+console.log(parseFloat ('2,3')) o parseFloat sempre transforma um texto para numero
+prompt, sempre retorna um texto
+
+forma de fazer o imc
+
+let peso =parseFolat(prompt('qual seu peso'))
+let altura =parseFolat(prompt('qual seu peso'))
+console.log(mostrarimc(peso, altura))
+
+codigo tem que ser bom para quem vai corrigir.
+usar oque foi passado na sala de aula.
+--------aula do allan display flex--------19/09/22--------------------
+flex wrap -- ele quebra linha e leva para a esquerda, o no wrap não quebra linha
+flex wrap: wrap, ela manda o alinhamento do texto para baixo.
+flex flow: pe como usar o row e o wrap 
+justf
+Obs: calcular o fatorial no progama javascript : n! =n*(n-1)*(n-2)*(n-3)......
+para guardar o resultado da operação para não sobre escrever é criar uma
+let acima da operação
+ex:
+for: (let i=0; i<1; i++){
+console.log
+}
+LET RESULTADO---esse let aqui irar receber e guardar o resultado dessa operação
+for( let i = 0,i<1,i++){
+	let parcela =i+1;
+	resultado= resultado + parcela
+}
+
+exercicio 2
+
+let arrayAltura [];
+let altura anterior;
+let altura maxima =0;
+for (let  index =0 < arrayaltura.length; index++){
+let altraatual=arrayaltura[index]
+------------aula alle -----------19/09/22----------------
+
+usar o @media screen -- ele vai sobre-escrever quando for outro aparelho
+e ele tem que estar abaixo do principal, para ele entrar só quando for 
+outro leitor de media como celular.
