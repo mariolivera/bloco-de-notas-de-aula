@@ -1,0 +1,53 @@
+.nav-bar {
+    height: 50px;
+    background-color: #333333;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.LOGO {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+
+.Menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Menu a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+
+
+
+.Menu li:hover {
+    background-color: #666;
+    text-decoration: underline;
+
+}
+
+.Menu-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .Menu-mobile {
+        display: block;
+    }
+
+    .Menu {
+        display: none;
+    }
+
+}
