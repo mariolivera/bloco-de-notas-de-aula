@@ -402,8 +402,90 @@ let altura anterior;
 let altura maxima =0;
 for (let  index =0 < arrayaltura.length; index++){
 let altraatual=arrayaltura[index]
-------------aula alle -----------19/09/22----------------
+------------aula ale -----------19/09/22-----------------------------------
 
 usar o @media screen -- ele vai sobre-escrever quando for outro aparelho
 e ele tem que estar abaixo do principal, para ele entrar só quando for 
 outro leitor de media como celular.
+
+------------aula allan ---------20/09/22---------------------------------
+ OBS: fazer mais atividades com o https://flexboxfroggy.com/ em casa.
+
+javascript botao do letreco atividade.
+function submeter() {
+    let palavraDoDia = 'carro';
+    let letra1 = document.getElementById('i1').value
+    let letra2 = document.getElementById('i2').value
+    let letra3 = document.getElementById('i3').value
+    let letra4 = document.getElementById('i4').value
+    let letra5 = document.getElementById('i5').value
+    let tentativa = letra1+letra2+letra3+letra4+letra5;
+
+    if(palavraDoDia === tentativa){
+        // document.getElementsByClassName('input')
+        let arrayDeInputs = document.getElementsByClassName('input')
+        
+        for (let index = 0; index < arrayDeInputs.length; index++) {
+            let element = arrayDeInputs[index];
+            element.style.backgroundColor = 'green'
+            element.style.color = 'white'
+        }
+    }
+    
+    // if(letra1 === palavraDoDia[0]){
+    //     document.getElementById('i1').style.backgroundColor = 'green'
+    // }
+    // if(letra2 === palavraDoDia[1]){
+    //     document.getElementById('i2').style.backgroundColor = 'green'
+    // }
+    // if(letra3 === palavraDoDia[2]){
+    //     document.getElementById('i3').style.backgroundColor = 'green'
+    // }
+    // if(letra4 === palavraDoDia[3]){
+    //     document.getElementById('i4').style.backgroundColor = 'green'
+    // }
+    // if(letra5 === palavraDoDia[4]){
+    //     document.getElementById('i5').style.backgroundColor = 'green'
+    // }
+}
+
+html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input{
+            border-radius: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        <span class="span" id="texto1"></span>
+        <div style="display: flex; width: 100%;">
+            <input class="input" id="i1" type="text" style="width: 20px;" maxlength="
+            1" />
+            <input class="input" id="i2" type="text" style="width: 20px;" maxlength="
+            1" />
+            <input class="input" id="i3" type="text" style="width: 20px;" maxlength="
+            1" />
+            <input class="input" id="i4" type="text" style="width: 20px;" maxlength="
+            1" />
+            <input class="input" id="i5" type="text" style="width: 20px;" maxlength="
+            1" />
+        </div>
+        <button onclick=" submeter()">Botao</button>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
+-----------aula do alessandro--20/09/22----------------------------------
+
+
