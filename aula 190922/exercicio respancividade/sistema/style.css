@@ -1,3 +1,8 @@
+html {
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .nav-bar {
     height: 50px;
     background-color: #333333;
@@ -12,6 +17,7 @@
     color: #ffffff;
     font-size: 1.8rem;
     margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Menu li {
