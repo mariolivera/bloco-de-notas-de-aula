@@ -18,6 +18,9 @@ https://getbootstrap.com/  ||  https://getbootstrap.com.br/   biblioteca de css.
 https://bulma.io/   ||   biblioteca css
 https://startbootstrap.com/themes ||templat de bootstrap de graça para estudo.
 https://bbbootstrap.com/ mais templat de bootstrap.
+https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular---estudar em casa dia 24/09/22, passar a manham isolado estudando
+https://www.w3schools.com/ ---estudar sobre javascript.
+https://www.w3schools.com/js/js_math.asp --link para resolver problemas matematicos.
 
 (https://mui.com/pt/material-ui/react-css-baseline/ mais uma biblioteca de css, MAS USA REACT.
 

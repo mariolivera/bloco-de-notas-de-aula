@@ -511,3 +511,11 @@ sm pequeno-- para botoes só usa os tres primeiros botoes
 md medio--
 sl largo--
 xl extra largo
+
+
+-----aula allan------22/09/22----------------------------------
+
+por baixo dos panos uma variavelstring é um array de todas as letras.
+ex: [a,b,c,d,e,......]
+
+
