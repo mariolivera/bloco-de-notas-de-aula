@@ -10,11 +10,18 @@ https://developer.mozilla.org/pt-BR/(SUPER IMPORTANTE O ESTUDO DESSE SITE)
 https://origamid.com/projetos/flexbox-guia-completo/
 https://flexboxfroggy.com/
 https://animate.style/
-https://codepen.io/features/  fazer repositorio aqui para ter visibilidade em trabalhos
-https://adminmart.com/ ja tem html e css free e prontos
-https://fontawesome.com/
-https://revealjs.com/
+https://codepen.io/features/  ||    fazer repositorio aqui para ter visibilidade em trabalhos
+https://adminmart.com/   ||   ja tem html e css free e prontos
+https://fontawesome.com/ ||  biblioteca de icons
+https://revealjs.com/ || site que removi o aquivo de slide
+https://getbootstrap.com/  ||  https://getbootstrap.com.br/   biblioteca de css.vpesquisar em portugues, estudar bootstrap, pois as empresas usam.
+https://bulma.io/   ||   biblioteca css
+https://startbootstrap.com/themes ||templat de bootstrap de graça para estudo.
+https://bbbootstrap.com/ mais templat de bootstrap.
+
+(https://mui.com/pt/material-ui/react-css-baseline/ mais uma biblioteca de css, MAS USA REACT.
 
 
+https://startbootstrap.com/theme/sb-admin-2 (brincar em casa com esse templat.)
 
 bastard:

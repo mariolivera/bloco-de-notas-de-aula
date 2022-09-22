@@ -486,6 +486,28 @@ html
 </body>
 
 </html>
------------aula do alessandro--20/09/22----------------------------------
+-----------aula do alessandro--21/09/22----------------------------------
 
+o bootstrap, já possui algumas
+estudar o grid do bootrap
+NUNCA alterar/editar o bootstrap uma classe do css, mas vc pode criar uma para add.
 
+ ----------------------class table--------------
+
+bootstrap
+--primary
+--secundary
+--sucecess
+--danger
+--warning
+--info
+--light
+--dark
+text, back ground, btn, card
+mt margin top
+mr margin rigth
+----------------------
+sm pequeno-- para botoes só usa os tres primeiros botoes
+md medio--
+sl largo--
+xl extra largo
