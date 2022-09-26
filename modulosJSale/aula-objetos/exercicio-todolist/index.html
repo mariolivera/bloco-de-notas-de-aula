@@ -9,14 +9,23 @@
 </head>
 <body style="background-color: rgb(2, 11, 102);">
     <section  class="row mt-5">
-        <div class="col-4 offset-4">
+        <div class="col-6 offset-3">
             <div  style="background-color: rgb(175, 80, 2); border-color: rgb(250, 115, 4);" class="card card-body">
                 <h2 style="text-align: center;">Lista de Tarefas (<span id="numeros">0</span>)</h2>
                 <hr style="color: #ffff;">
                 
                 <form action="" class="row" onsubmit="addtarefa()">
-                <div class="col-9">
+                <div class="col-6">
                     <input type="text" id="input_nova_tarefa" class="form-control" placeholder="Nova Tarefa">
+                </div>
+
+                <div class="col-3">
+                    <select name="" id="input_prioridade" class="form-select">
+                        <option> -- Prioridade --</option>
+                        <option>Alta</option>
+                        <option>Média</option>
+                        <option>Baixa</option>
+                    </select>
                 </div>
                 <div class="col-3 dgrid">
                     <button class="btn btn-outline-primary d-grid">
@@ -35,7 +44,7 @@
         </div>
     </section>
 
-
+    <script src="dao.js"></script><!-- os dados sempre tem que vim antes do eventos para fazer a leitura, pois o evento.js vai ler o dao.js-->
     <script src="eventos.js"></script>
 </body>
 </html>
